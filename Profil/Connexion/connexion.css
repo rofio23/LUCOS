@@ -1,0 +1,112 @@
+/* Fond de la page */
+
+body {
+    margin: 0;
+    padding: 0;
+
+    background-color: greenyellow;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+
+    font-family: Arial, sans-serif;
+}
+
+
+/* Interface de connexion */
+
+.connexion {
+    width: 350px;
+
+    background-color: green;
+
+    padding: 40px;
+
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+
+/* Titre */
+
+.connexion h1 {
+    color: white;
+
+    text-align: center;
+
+    margin-bottom: 20px;
+}
+
+
+/* Champs */
+
+.connexion input {
+    padding: 15px;
+
+    border: none;
+
+    border-radius: 10px;
+
+    font-size: 16px;
+
+    outline: none;
+}
+
+
+/* Bouton */
+
+.connexion button {
+    padding: 15px;
+
+    background-color: greenyellow;
+
+    color: green;
+
+    border: none;
+
+    border-radius: 10px;
+
+    font-size: 17px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+
+/* Effet quand on passe la souris */
+
+.connexion button:hover {
+    background-color: white;
+}
+
+.bouton-retour {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+
+    width: 50px;
+    height: 50px;
+
+    background-color: #14532d;
+    color: white;
+
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: bold;
+}
+
