@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: greenyellow;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.prix {
+    width: 200px;
+    height: 200px;
+
+    border: none;
+    border-radius: 50%;
+
+    background-color: #0b4d2b;
+    color: white;
+
+    font-size: 50px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+.bouton-retour {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+
+    width: 50px;
+    height: 50px;
+
+    background-color: #14532d;
+    color: white;
+
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: bold;
+}
+
