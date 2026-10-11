@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background: greenyellow;
+    font-family: Arial, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paiement {
+    width: 400px;
+    background: green;
+    padding: 35px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 80, 0, 0.35);
+}
+
+h1 {
+    text-align: center;
+    color: greenyellow;
+    margin-bottom: 8px;
+}
+
+.sous-titre {
+    text-align: center;
+    color: white;
+    margin-bottom: 25px;
+}
+
+.prix {
+    background: greenyellow;
+    color: green;
+    padding: 15px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.prix strong {
+    font-size: 20px;
+}
+
+label {
+    display: block;
+    color: white;
+    margin-bottom: 7px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 13px;
+    margin-bottom: 18px;
+    border: 2px solid greenyellow;
+    border-radius: 10px;
+    outline: none;
+    background: white;
+    font-size: 15px;
+}
+
+input:focus {
+    border-color: white;
+    box-shadow: 0 0 8px greenyellow;
+}
+
+.ligne {
+    display: flex;
+    gap: 15px;
+}
+
+.ligne div {
+    width: 50%;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 12px;
+    background: greenyellow;
+    color: green;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 15px greenyellow;
+}
+
+.securise {
+    text-align: center;
+    color: white;
+    margin-top: 18px;
+    font-size: 14px;
+}
+
+.bouton-retour {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+
+    width: 50px;
+    height: 50px;
+
+    background-color: #14532d;
+    color: white;
+
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: bold;
+}
+

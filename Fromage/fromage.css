@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    height: 100vh;
+    background-color: greenyellow;
+}
+
+.fruits {
+    width: 90%;
+    margin: 170px auto 40px auto;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+
+/* BLOC FILM / SERIE */
+
+.film {
+    background-color: #151515;
+    border-radius: 8px;
+    overflow: hidden;
+
+    color: white;
+    text-align: center;
+
+    transition: transform 0.2s;
+    cursor: pointer;
+}
+
+
+/* IMAGE */
+
+.film img {
+    width: 100%;
+    height: 280px;
+
+    object-fit: cover;
+    display: block;
+}
+
+
+/* TITRE */
+
+.film h3 {
+    margin: 12px 5px;
+    font-size: 17px;
+}
+
+
+/* SURVOL */
+
+.film:hover {
+    transform: scale(1.03);
+}
+
+.bouton-retour {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+
+    width: 50px;
+    height: 50px;
+
+    background-color: #14532d;
+    color: white;
+
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: bold;
+}
+
